@@ -1,0 +1,44 @@
+
+     convert this into XML format
+    {
+        "name": {
+            "common": "France",
+            "official": "French Republic",
+            "nativeName": {
+                "fra": {
+                    "official": "République française",
+                    "common": "France"
+                }
+            }
+        },
+        "tld": [
+            ".fr"
+        ],
+        "currencies": {
+            "EUR": {
+                "name": "Euro",
+                "symbol": "€"
+            }
+        },
+        "capital": [
+            "Paris"
+        ],
+        "altSpellings": [
+            "FR",
+            "French Republic",
+            "République française"
+        ],
+        "region": "Europe",
+        "subregion": "Western Europe",
+        "languages": {
+            "fra": "French"
+        },
+        "continents": "Europe",
+        "flags": {
+            "png": "https://flagcdn.com/w320/fr.png",
+            "svg": "https://flagcdn.com/fr.svg",
+            "alt": "The flag of France is composed of three equal vertical bands of blue, white and red."
+        },
+        "startOfWeek": "monday"
+      
+    }
