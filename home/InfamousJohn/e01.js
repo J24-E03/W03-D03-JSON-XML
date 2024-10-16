@@ -197,11 +197,11 @@ const me = new InfamousJohn();
 //     city: 'New York',
 //     country: 'USA'
 //   },
-//   car: Car { model_name: 'Corolla', brand_name: 'Toyota', year: 2020 },
+//   car: { model_name: 'Corolla', brand_name: 'Toyota', year: 2020 },
 //   favorite_tv_shows: [ 'The Simpsons', 'Breaking Bad', 'Game of Thrones' ],
 //   pets: [
-//     Pet { name: 'Fluffy', type: 'Cat', breed: 'Persian', age: 5 },
-//     Pet { name: 'Rex', type: 'Dog', breed: 'German Shepherd', age: 3 }
+//     { name: 'Fluffy', type: 'Cat', breed: 'Persian', age: 5 },
+//     { name: 'Rex', type: 'Dog', breed: 'German Shepherd', age: 3 }
 //   ]
 // }
 console.log(me);
