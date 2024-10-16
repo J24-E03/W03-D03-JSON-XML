@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Me>
+    <FirstName>Princess</FirstName>
+    <LastName>Funnypants</LastName>
+    <BirthDate>07.07.1905</BirthDate>
+    <Age>119</Age>
+    <Gender>F</Gender>
+    <Nationalities>
+        <Nationality>Fairyland</Nationality>
+        <Nationality>Underwater Kingdom</Nationality>
+    </Nationalities>
+    <IsMarried>true</IsMarried>
+    <HasChildren>true</HasChildren>
+    <Hobbies>
+        <Hobby>knitting with spaghetti</Hobby>
+        <Hobby>time traveling</Hobby>
+        <Hobby>chasing butterflies</Hobby>
+    </Hobbies>
+    <Address>
+        <Street>Invisible Street</Street>
+        <HouseNumber>88</HouseNumber>
+        <ZipCode>54321</ZipCode>
+        <DistrictName>Rainbow Valley</DistrictName>
+        <City>Cupcake Cove</City>
+        <Country>Fairyland</Country>
+    </Address>
+    <Car>
+        <ModelName>Time Machine</ModelName>
+        <BrandName>DeLorean</BrandName>
+        <Year>1985</Year>
+    </Car>
+    <FavoriteTVShows>
+        <TVShow>Lost in Space</TVShow>
+        <TVShow>Sherlock Holmes</TVShow>
+        <TVShow>Dragon Rider Academy</TVShow>
+    </FavoriteTVShows>
+    <Pets>
+        <Pet>
+            <Name>Bob</Name>
+            <Type>Turtle</Type>
+            <Breed>Ninja</Breed>
+            <Age>200</Age>
+        </Pet>
+        <Pet>
+            <Name>Fluffy</Name>
+            <Type>Parrot</Type>
+            <Breed>Rainbow</Breed>
+            <Age>15</Age>
+        </Pet>
+    </Pets>
+</Me>

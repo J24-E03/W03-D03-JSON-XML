@@ -106,8 +106,18 @@ It contains the following properties:
 ## Navigating through the object
 Once you have the object done, answer the following questions. Write down the full path to access each of the requested values. Consider that the reference to the object representing the **YOU** object is simply called `me`.
 
+
+### assuming the object is stored in a variable called me:
 1. #### How can you access your first name?
+    - `me.first_name`
 2. #### How can you access your last name?
+    - `me.last_name`
 3. #### How can you access your hobbies?
+    - `me.hobbies`
+    - `for (let i = 0; i < me.hobbies.length; i++) {
+    console.log(me.hobbies[i]);
+}`
 4. #### How can you access your street's name?
+    - `me.address.street`
 5. #### How can you access your second pet's name?
+    - `me.pets[1].name`
