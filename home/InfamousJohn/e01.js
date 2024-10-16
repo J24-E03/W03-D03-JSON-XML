@@ -1,3 +1,5 @@
+const js2xmlparser = require("js2xmlparser");
+
 class Address {
     constructor() {
         this.street = 'Main St';
@@ -174,7 +176,35 @@ class InfamousJohn {
     }
 }
 
+
 const me = new InfamousJohn();
+
+// {
+//   first_name: 'John',
+//   last_name: 'Doe',
+//   birthdate: '01.01.1990',
+//   age: 30,
+//   gender: 'M',
+//   nationality: 'Internationalist',
+//   is_married: false,
+//   has_children: false,
+//   hobbies: [ 'Reading', 'Coding', 'Traveling' ],
+//   address: Address {
+//     street: 'Main St',
+//     house_number: 123,
+//     zip_code: '12345',
+//     distrct_name: 'Downtown',
+//     city: 'New York',
+//     country: 'USA'
+//   },
+//   car: Car { model_name: 'Corolla', brand_name: 'Toyota', year: 2020 },
+//   favorite_tv_shows: [ 'The Simpsons', 'Breaking Bad', 'Game of Thrones' ],
+//   pets: [
+//     Pet { name: 'Fluffy', type: 'Cat', breed: 'Persian', age: 5 },
+//     Pet { name: 'Rex', type: 'Dog', breed: 'German Shepherd', age: 3 }
+//   ]
+// }
+console.log(me);
 
 // Exercise 1-1
 console.log(me.getFirstName());
@@ -190,3 +220,7 @@ console.log(me.getAddress().getStreet());
 
 // Exercise 1-5
 console.log(me.getPets()[1].getName());
+
+// Excersie 1-6 - Bonus :)
+const xml = js2xmlparser.parse("InfamousJohn", me);
+console.log(xml);
