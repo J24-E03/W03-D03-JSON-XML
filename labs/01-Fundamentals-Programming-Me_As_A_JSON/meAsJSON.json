@@ -1,0 +1,49 @@
+# Me As a JSON
+
+{
+  "me": {
+    "first_name": "Martine",
+    "last_name": "Utheim",
+    "birth_date": "28.08.1992",
+    "age": 32,
+    "gender": "Female",
+    "nationality": "Norwegian",
+    "is_married": true,
+    "has_children": false,
+    "hobbies": ["Reading", "Cooking", "Running"],
+    "address": {
+      "street_name": "LLS",
+      "house_number": "10",
+      "district_name": "Neukölln",
+      "zip_code": "12049",
+      "city": "Berlin",
+      "country": "Germany"
+    },
+    "car": {
+      "model_name": "BMW ZW (E89)",
+      "brand_name": "BMW",
+      "year": 2012
+    },
+    "favorite_tv_shows": ["Twin Peaks", "Sopranos"],
+    "pets": [
+      {
+        "name": "Dog",
+        "type": "Cat",
+        "breed": "Street cat",
+        "age": 5
+      },
+      {
+        "name": "Fishy",
+        "type": "Fish",
+        "breed": "Gold",
+        "age": 1
+      }
+    ]
+  }
+}
+
+## My first name can be accessed through this path: me.first_name
+## Path to my last name: me.last_name
+## Path to my hobbies: me.hobbies
+## Path to my street name: me.address.street_name
+## Path to my second pet's name: me.pets[1].name

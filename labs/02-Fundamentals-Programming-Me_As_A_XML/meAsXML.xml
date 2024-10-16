@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Me>
+    <firstName>Martine</firstName>
+    <lastName>Utheim</lastName>
+    <birthDate>28.08.1992</birthDate>
+    <age>32</age>
+    <gender>F</gender>
+    <nationality>Norwegian</nationality>
+    <isMarried>true</isMarried>
+    <hasChildren>false</hasChildren>
+    <hobbies>   
+        <hobby>Reading</hobby>
+        <hobby>Cooking</hobby>
+        <hobby>Running</hobby>
+        </hobbies>
+    < streetName="LLS" houseNumber="10" districtName="Neukölln" zipCode="12049" country="Germany" />
+    <car modelName="BMW ZW (E89)" brandName="BMW" year="2012" />
+    <favoriteTvShows>
+        <tvShow>Twin Peaks</tvShow>
+        <tvShow>Sopranos</tvShow>
+        </favoriteTvShows>
+    <pets>
+        <pet name="Dog" type="Cat" breed="Street Cat" age="5" />
+        <pet name="Fishy" type="Fish" breed="Gold" age="1" />
+        </pet>
+    </pets>
+</Me>
