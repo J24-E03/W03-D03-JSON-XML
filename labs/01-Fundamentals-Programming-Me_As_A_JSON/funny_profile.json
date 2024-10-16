@@ -1,0 +1,39 @@
+{
+    "first_name": "Princess",
+    "last_name": "Funnypants",
+    "birth_date": "07.07.1905",
+    "age": 119,
+    "gender": "F",
+    "nationality": ["Fairyland", "Underwater Kingdom"],
+    "is_married": true,
+    "has_children": true,
+    "hobbies" : ["knitting with spaghetti", "time traveling", "chasing butterflies"],
+  "address" : {
+      "street": "Invisible Street",
+        "house_number": "88",
+        "zip_code": 54321,
+        "district_name": "Rainbow Valley",
+        "city": "Cupcake Cove",
+        "country": "Fairyland"
+  },
+  "car": {
+        "model_name": "Time Machine",
+        "brand_name": "DeLorean",
+        "year": 1985
+    },
+   "favorite_tv_shows": ["Lost in Space", "Sherlock Holmes", "Dragon Rider Academy"],
+    "pets" : [
+      {
+            "name": "Bob",
+            "type": "Turtle",
+            "breed": "Ninja",
+            "age": 200
+        },
+        {
+            "name": "Fluffy",
+            "type": "Parrot",
+            "breed": "Rainbow",
+            "age": 15
+        }
+    ]
+}
