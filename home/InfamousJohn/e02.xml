@@ -1,0 +1,47 @@
+<Person>
+    <FirstName>John</FirstName>
+    <LastName>Doe</LastName>
+    <Birthdate>01.01.1990</Birthdate>
+    <Age>30</Age>
+    <Gender>M</Gender>
+    <Nationality>Internationalist</Nationality>
+    <IsMarried>false</IsMarried>
+    <HasChildren>false</HasChildren>
+    <Hobbies>
+        <Hobby>Reading</Hobby>
+        <Hobby>Coding</Hobby>
+        <Hobby>Traveling</Hobby>
+    </Hobbies>
+    <Address
+        Street="Main St"
+        HouseNumber="123"
+        ZipCode="12345"
+        DistrictName="Downtown"
+        City="New York"
+        Country="USA"
+    />
+    <Car
+        ModelName="Corolla"
+        BrandName="Toyota"
+        Year="2020"
+    />
+    <FavoriteTvShows>
+        <Show>The Simpsons</Show>
+        <Show>Breaking Bad</Show>
+        <Show>Game of Thrones</Show>
+    </FavoriteTvShows>
+    <Pets>
+        <Pet
+            Name="Fluffy"
+            Type="Cat"
+            Breed="Persian"
+            Age="5"
+        />
+        <Pet
+            Name="Rex"
+            Type="Dog"
+            Breed="German Shepherd"
+            Age="3"
+        />
+    </Pets>
+</Person>
