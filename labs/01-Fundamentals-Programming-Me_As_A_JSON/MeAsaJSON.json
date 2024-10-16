@@ -1,0 +1,32 @@
+[
+    {
+        "first_name": "Aron",
+        "last_name": "Turowski",
+        "birth_date": "25.03.1991",
+        "age": "33",
+        "gender": "M",
+        "nationality": "Poland",
+        "is_married": "False",
+        "has children": "False",
+        "hobies": ["Flying Symulator", "Long walks", "Politics"],
+        "address": {
+            "street": "Gübener str.",
+            "house_number": "44",
+            "zip_code": "10243",
+            "district_name": "Friedrichshain",
+            "city": "Berlin",
+            "country": "Germany"
+                    },
+        "car": {
+            "model_name": "Land Rover",
+            "brand_name": "Range Rover",
+            "year": "1988"
+            },
+        "pet": {
+            "name": "Max",
+            "type": "Dog",
+            "breed": "mongrel",
+            "age": "19"
+        }           
+    }       
+]
