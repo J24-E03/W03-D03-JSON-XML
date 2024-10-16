@@ -1,0 +1,40 @@
+{
+    "name": {
+        "first_name": "Michael",
+        "last_name": "Jackson"
+    },
+
+    "birth_date": "10/17/1992",
+    "age": 31,
+    "gender": "M",
+    "nationality": ["moldawien", "romanien"],
+
+    "isMaried": true,
+    "hasChildren": true,
+
+    "hobies": ["football", "swimming", "cycling"],
+    
+    "address": {
+        "street": "Berliner Allee",
+        "house_number": "20",
+        "zip_code": 12620,
+        "district_name": "Spandau",
+        "city": "Berlin",
+        "country": "Germany"
+    },
+
+    "car": {
+        "model_name": "Skoda",
+        "brand_name": "Fabia",
+        "year": 2006
+    },
+
+    "favorite_tv_shows": ["Breaking Bad", "Planet Earth", "Band of Brothers"],
+
+    "pets": {
+        "name": "Johnie",
+        "type": "Dog",
+        "breed": "Bulldog",
+        "age": 3
+    }
+}
