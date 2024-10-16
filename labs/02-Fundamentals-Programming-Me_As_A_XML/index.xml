@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Me>
+    <name>
+      <first_name>Michael</first_name>
+      <last_name>Jackson</last_name>
+   </name>
+   <birth_date>10/17/1992</birth_date>
+   <age>31</age>
+   <gender>M</gender>
+   <nationalities>
+      <element>moldawien</element>
+      <element>romanien</element>
+   </nationalities>
+   <isMaried>true</isMaried>
+   <hasChildren>true</hasChildren>
+   <hobies>
+      <element>football</element>
+      <element>swimming</element>
+      <element>cycling</element>
+   </hobies>
+   <address>
+      <city>Berlin</city>
+      <country>Germany</country>
+      <district_name>Spandau</district_name>
+      <house_number>20</house_number>
+      <street>Berliner Allee</street>
+      <zip_code>12620</zip_code>
+   </address>
+   <car>
+      <brand_name>Fabia</brand_name>
+      <model_name>Skoda</model_name>
+      <year>2006</year>
+   </car>
+   <favorite_tv_shows>
+      <element>Breaking Bad</element>
+      <element>Planet Earth</element>
+      <element>Band of Brothers</element>
+   </favorite_tv_shows>
+   <hobies>
+      <element>football</element>
+      <element>swimming</element>
+      <element>cycling</element>
+   </hobies>
+   <pets>
+        <dog>
+            <age>3</age>
+            <breed>Bulldog</breed>
+            <name>Johnie</name>
+            <type>Dog</type>
+        </dog>
+        <fish>
+            <age>1</age>
+            <breed>Oranda</breed>
+            <name>Ronnie</name>
+            <type>Fish</type>
+        </fish>
+   </pets>
+</Me>
